@@ -19,6 +19,20 @@ the correct output occurs.
 // These 3 stataments should print out the 3 basic data types you learned about this week.
 // (i.e. `number`, `string`, `boolean`)
 
+//boolean
+
+var data = true;
+
+if (data) {
+  console.log("I am good at coding");
+} else {
+  console.log("I am not good at coding");
+
+  // null
+
+  var n = null;
+  console.log(n * )
+
 console.log(typeof(09));
 console.log(typeof("I am good at coding"));
 console.log(typeof(false));
@@ -26,7 +40,16 @@ console.log(typeof(false));
 console.log(typeof(02));
 console.log(typeof(boolean)
 
+//undefined (numbers)
 
+var a = null;
+console.log(a + 2);
+
+// number
+
+var num = 3.6;
+var ber = 6.4;
+console.log(num + ber);
 
 
 /**************************************************/
@@ -50,10 +73,6 @@ console.log(typeof(boolean)
 ########
 #########
 ##########
-
-*/
-// You program should utilize a control loop of somesort to solve this problem.
-
 
 
 
