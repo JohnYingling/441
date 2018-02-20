@@ -21,64 +21,19 @@ the correct output occurs.
 
 //boolean
 
-var data = true;
-
-if (data) {
-  console.log("I am good at coding");
-} else {
-  console.log("I am not good at coding");
-
-  // null
-
-  var n = null;
-  console.log(n * )
-
-console.log(typeof(09));
-console.log(typeof("I am good at coding"));
-console.log(typeof(false));
-
-console.log(typeof(02));
-console.log(typeof(boolean)
-
-//undefined (numbers)
-
-var a = null;
-console.log(a + 2);
-
-// number
-
-var num = 3.6;
-var ber = 6.4;
-console.log(num + ber);
+console.log( typeof 5 );
+console.log( typeof "I am John!")
+console.log( typeof true );
 
 
 /**************************************************/
 // PROBLEM 2 - Using Loops to Create Pyramids
-//
-// Write a basic program that will print a pyramid to the web console.
-// The pyramid should be made of the pound sign character (i.e. '#')
-// The top of the pyramid should be 1 character wide
-// The bottom of the pyramid should be 10 characters wide
-//
-// This should look like the following
-/*
 
-#
-##
-###
-####
-#####
-######
-#######
-########
-#########
-##########
-
-
-
-
-
-
+var number = " ";
+for (var i = 0; i < 10; i++) {
+number = number+"*"
+console.log(number);
+}
 
 
 /**************************************************/
@@ -110,6 +65,18 @@ FizzBuzz
 -> etc....
 
 */
+
+for( let i = 1; i<=100; i++ ) {
+    if( i%3==0 && i%5==0 ) {
+      console.log( "FizzBuzz");
+    } else if( i % 3  == 0) {
+      console.log( "Fizz" );
+    } else if( i % 5 == 0 ) {
+     console.log( "Buzz");
+    } else {
+      console.log( i );
+    }
+}
 
 
 
